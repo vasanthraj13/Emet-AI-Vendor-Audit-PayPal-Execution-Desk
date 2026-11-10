@@ -1,0 +1,8 @@
+{
+  "name": "Vendor AI — Autonomous Vendor Audit & PayPal Execution Desk",
+  "description": "Agentic Commerce assistant that audits vendor bills, catches forensic arithmetic anomalies, and executes programmatic PayPal Payouts & Invoices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
