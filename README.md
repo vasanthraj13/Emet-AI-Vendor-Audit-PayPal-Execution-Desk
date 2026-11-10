@@ -73,9 +73,6 @@ Emet AI (inspired by the Hebrew concept of *Emet* — Truth & Reliability) is an
 
 The full-stack application is live and hosted on Google Cloud Run:
 - **Primary Hosted Application**: [https://ais-dev-ldwq3yzc3jtexztrf67s42-786713530731.asia-southeast1.run.app](https://ais-dev-ldwq3yzc3jtexztrf67s42-786713530731.asia-southeast1.run.app)
-- **Shared Production View**: [https://ais-pre-ldwq3yzc3jtexztrf67s42-786713530731.asia-southeast1.run.app](https://ais-pre-ldwq3yzc3jtexztrf67s42-786713530731.asia-southeast1.run.app)
-- **Live Health Endpoint**: [https://ais-dev-ldwq3yzc3jtexztrf67s42-786713530731.asia-southeast1.run.app/api/health](https://ais-dev-ldwq3yzc3jtexztrf67s42-786713530731.asia-southeast1.run.app/api/health)
-
 ---
 
 ## 🟢 Live PayPal Sandbox Verification Proof
