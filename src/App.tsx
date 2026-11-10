@@ -1,3 +1,5 @@
+#app
+
 import React, { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import { UploadZone } from './components/UploadZone';
