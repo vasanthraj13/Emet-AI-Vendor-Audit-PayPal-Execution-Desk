@@ -1,4 +1,4 @@
-# Emet AI — Autonomous Vendor Audit & PayPal Execution Desk
+# Emet AI — Vendor Audit & PayPal Execution Desk
 
 > **PayPal AI Hackathon Submission**  
 > *Theme: "AI Behind the Wheel" — Autonomous Agentic Commerce with Human-in-the-Loop (HITL) Guardrails.*
@@ -116,47 +116,6 @@ git clone <repo-url> && cd <repo> && npm install && npm run build && npm start
 
 The application will build production assets and launch the co-hosted Express + Vite server at:
 👉 **`http://localhost:3000`**
-
----
-
-## ☁️ 1-Click Platform Deployment Guides
-
-### Deploy to Render (Recommended)
-This repository includes a native `render.yaml` blueprint.
-1. Connect this repository to [Render](https://render.com).
-2. Click **New +** &rarr; **Blueprint** (or Web Service).
-3. Set your environment variables (`PAYPAL_CLIENT_ID`, `PAYPAL_CLIENT_SECRET`, `PAYPAL_MODE=sandbox`, `GEMINI_API_KEY`).
-4. Render will automatically build via `npm install && npm run build` and launch via `npm start`.
-
-### Deploy to Vercel
-This repository includes a configured `vercel.json`.
-1. Run `vercel` or import the repository in the Vercel Dashboard.
-2. Build Command: `npm run build`
-3. Output Directory: `dist`
-4. Add environment variables in Vercel Project Settings.
-
-### Deploy with Docker
-This repository includes a multi-stage production `Dockerfile`:
-```bash
-docker build -t vendorbot-ai .
-docker run -p 3000:3000 vendorbot-ai
-```
-
----
-
-## 🧪 Interactive Preset Scenarios (Indian Market)
-
-For instant testing, use the three built-in Indian presets in the **Presets** dropdown:
-
-1. **Udupi Grand Café & Tiffins (Bengaluru)**
-   - *Anomalies*: Arithmetic miscalculation (printed stated total ₹540.00 vs calculated ₹445.00), missing customer email, 5% GST rate.
-   - *Behavior*: Flagged by forensic engine; requires 1-click "Reconcile Math" before payment.
-2. **Apex IT Hardware Solutions Pvt Ltd (Bengaluru)**
-   - *Anomalies*: Duplicate diagnostic line item (₹2,500 charged twice) and 18% GST (CGST 9% + SGST 9%).
-   - *Behavior*: Audit engine highlights duplicate charge and prompts for approval.
-3. **HyperScale Cloud & Fintech Consulting LLP (Mumbai BKC)**
-   - *Status*: 100% Validated B2B Retainer invoice (₹1,56,645.00), 18% IGST, verified GSTIN `27AABCH1234F1Z5`.
-   - *Behavior*: Full green audit score, triggers high-value HITL guardrail or programmatic PayPal Payout.
 
 ---
 
