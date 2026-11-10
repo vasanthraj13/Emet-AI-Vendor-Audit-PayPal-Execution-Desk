@@ -1,7 +1,6 @@
 # Emet AI — Vendor Audit & PayPal Execution Desk
 
 > **PayPal AI Hackathon Submission**  
-> *Theme: "AI Behind the Wheel" — Autonomous Agentic Commerce with Human-in-the-Loop (HITL) Guardrails.*
 
 Emet AI (inspired by the Hebrew concept of *Emet* — Truth & Reliability) is an enterprise-grade agentic financial assistant that automates incoming vendor bill auditing, forensic arithmetic reconciliation, statutory Indian GST compliance verification, and dual programmatic execution using PayPal's Invoicing v2 and Payouts API.
 
@@ -22,9 +21,7 @@ Emet AI (inspired by the Hebrew concept of *Emet* — Truth & Reliability) is an
 - **Dual PayPal Execution Paths**:
   - **PayPal Invoicing API (v2)**: Generates official draft invoices, merchant payment links, and scannable QR codes.
   - **PayPal Payouts API (v1)**: Dispatches programmatic vendor disbursements directly to vendor PayPal accounts (`/v1/payments/payouts`).
-- **Developer-Grade Enterprise Aesthetic**:
-  - Clean monochrome palette (`zinc-950` / `zinc-900` / `zinc-800`), 1px subtle borders, tabular monospace figures.
-  - Keyboard shortcuts (`⌘K` command palette, `⌘P` quick payout, `Shift+Enter` submit).
+  
 
 ---
 
